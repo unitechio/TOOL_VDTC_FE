@@ -1,0 +1,94 @@
+.login__error {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: red;
+  font-size: 0.9rem;
+}  
+.loader {
+  border: 20px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 20px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  z-index: -1;
+  visibility: hidden;
+  position: fixed;
+  padding:100px;
+  top: 40%;
+  left: 40%;
+}
+
+.button_search{
+  background-color: #ffe2cd;
+  color: #212121;
+  font-size: 18px;
+  min-width: 144px;
+  border: 1px solid #ffc59b;
+  border-radius: 14px
+}
+
+.button_search:hover {
+background-color:  #ffc59b;
+color: #212121;
+}
+.border_input {
+border: 1px solid #000066;
+background-color: #fafafa;
+border-radius: 14px;
+width: "350px";
+height: "40px";
+/* border: 1px solid transparent; Initially transparent border */
+/* border-radius: 14px; */
+/* transition: border 0.3s ease; Smooth transition effect */
+
+}
+.border_input:hover{
+border: 2px solid #000066;
+/* border: 1px solid #000066; */
+border-radius: 14px;
+background-color: #fafafa;
+transition: border ease;
+
+}
+
+.style_text{
+color: #ff7b1f;
+font-weight: 500;
+font-size: 22px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+th, tr,tbody {
+/* padding: 10px; */
+border-bottom: 2px solid #0a0000; /* Đường viền đậm để phân biệt các hàng */
+/* text-align: left; */
+}
+
+.button_action{
+min-width: 120px;
+}
+
+.scroll-tbody{
+min-height: 300px;
+max-height: 600px;
+overflow-y: scroll;
+/* overflow-x: scroll; */
+z-index: 1;
+}
+.header-row {
+/* background: #ffe2cd; */
+position: sticky;
+top: 0;
+z-index: 1;
+}
+  .smallDatePicker {
+    width: 150px; /* Thiết lập chiều rộng mong muốn */
+    border-radius: 50%; /* Đường viền tròn */
+    text-align: center; /* Căn giữa chữ trong ô */
+}

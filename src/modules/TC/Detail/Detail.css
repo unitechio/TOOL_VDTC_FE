@@ -1,0 +1,22 @@
+.login__error {
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: red;
+    font-size: 0.9rem;
+  }
+
+  .loader {
+    border: 20px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 20px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    z-index: -1;
+    visibility: hidden;
+    position: fixed;
+    padding:100px;
+    top: 40%;
+    left: 40%;
+  }

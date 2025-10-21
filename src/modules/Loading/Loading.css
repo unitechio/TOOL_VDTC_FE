@@ -1,0 +1,26 @@
+/* body {
+    padding: 0px;
+    margin: 0px;
+  }
+  #root {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(53, 126, 221);
+    padding-top: 20px;
+  }
+   */
+   .loader {
+    border: 20px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 20px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    z-index: -1;
+    visibility: hidden;
+    position: fixed;
+    padding:100px;
+    top: 40%;
+    left: 40%;
+  }

@@ -1,0 +1,19 @@
+.custom-bg-container {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .custom-bg-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://viettel-telecom.net/wp-content/uploads/2022/08/THAY-DOI-THONG-TIN-EPASS-VIETTEL.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    z-index: -1;
+  }
