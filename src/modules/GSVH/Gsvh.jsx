@@ -121,7 +121,7 @@ function Gsvh() {
                         </Link> : ""
                     }
                      {
-                      tool.option_tool === "Giao dịch liên kết MoMo" ?
+                      tool.option_tool === "Giao dịch liên kết MoMo - VNPAY" ?
                         <Link
                           to={`/GSVH/giao-dich-lien-ket-momo/${tool.id}`}
                           className="btn btn-outline-primary"
@@ -368,7 +368,7 @@ function Gsvh() {
                     </Link>:""
                     }
                     {
-                      tool.option_tool === "Giao dịch SMS VTQ"?
+                      tool.option_tool === "Giao dịch SMS VTQ DANTHE"?
                       <Link
                       to={`/GSVH/giao-dich-sms-vtq/${tool.id}`}
                       className="btn btn-outline-primary"
