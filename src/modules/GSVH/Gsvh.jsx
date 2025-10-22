@@ -431,6 +431,24 @@ function Gsvh() {
                     ) : (
                       ""
                     )}
+                    {
+                      tool.option_tool === "Giao dịch Fintwin"?
+                      <Link
+                      to={`/GSVH/giao-dich-fw/${tool.id}`}
+                      className="btn btn-outline-primary"
+                    >
+                      Xem chi tiết
+                    </Link>:""
+                    }
+                    {
+                      tool.option_tool === "Giao dịch VCB"?
+                      <Link
+                      to={`/GSVH/giao-dich-vcb/${tool.id}`}
+                      className="btn btn-outline-primary"
+                    >
+                      Xem chi tiết
+                    </Link>:""
+                    }
                   </div>
                 </div>
               </div>
