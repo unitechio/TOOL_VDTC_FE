@@ -219,7 +219,7 @@ function GdMOMO() {
             {showLoading && <Loading></Loading>}
             {console.log(result)}
             <div className="container" style={{ textAlign: "left" }}>
-                <h2 className="text-center m-3">Tra cứu giao dịch MOMO </h2>
+                <h2 className="text-center m-3">Giao dịch liên kết MoMo - VNPAY </h2>
                 <div className="form-search1 mt-5" style={{ marginLeft: "70px" }}>
                     <div className="form-searchDate row">
                         <div className="date-fromto col-5">
