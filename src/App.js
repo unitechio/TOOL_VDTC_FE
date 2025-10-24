@@ -39,7 +39,9 @@ import RoadParking from "./modules/GSVH/Detail/RoadParking";
 import ReportPaymentTransaction from "./modules/GSVH/Detail/ReportPaymentTransaction";
 import SearchVehicleBOO2ParkingBOO1 from "./modules/GSVH/Detail/SearchVehicleBOO2ParkingBOO1";
 import FptPay from "./modules/GSVH/Detail/FptPay";
-import GiaoDichSMSVTQ from "./modules/GSVH/Detail/gdSMSVTQ"
+import GiaoDichSMSVTQ from "./modules/GSVH/Detail/gdSMSVTQ";
+import GiaoDichFintwin from "./modules/GSVH/Detail/gdFW";
+import GiaoDichVCB from "./modules/GSVH/Detail/gdVCB";
 import ReportCollectionTransaction from "./modules/GSVH/Detail/ReportCollectionTransaction";
 import KPIVISA from "./modules/GSVH/Detail/KPIVISA";
 import KPIBaiDo from "./modules/GSVH/Detail/KPIBaiDo";
@@ -344,6 +346,14 @@ function App() {
           <Route
             path="/GSVH/doi-soat-lien-thong-bai-do/:id"
             element={auth ? <DoiSoatLienThongBaiDo /> : <Login />}
+          />
+          <Route
+            path="/GSVH/giao-dich-fw/:id"
+            element={auth ? <GiaoDichFintwin /> : <Login />}
+          />
+          <Route
+            path="/GSVH/giao-dich-vcb/:id"
+            element={auth ? <GiaoDichVCB /> : <Login />}
           />
 
 
